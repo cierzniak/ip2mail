@@ -1,8 +1,5 @@
 import os
 
-# Debug
-DEBUG = False
-
 # Email recipient
 EMAIL_TO = 'user@example.com'
 
@@ -18,4 +15,5 @@ SMTP_PSWD = 'super_secret_password'
 # <editor-fold desc="Do not touch unless you know what are you doing!">
 FILE_IPV4 = os.path.join(os.path.dirname(__file__), '../data/ipv4.txt')
 FILE_HOST = os.path.join(os.path.dirname(__file__), '../data/host.txt')
+FILE_DMESG = os.path.join(os.path.dirname(__file__), '../data/dmesg.txt')
 # </editor-fold>
