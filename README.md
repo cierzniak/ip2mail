@@ -27,14 +27,6 @@ SMTP_PSWD = 'super_secret_password'
 * `SUBJECT_TOPIC` is prefix of subject, eg. [Server] Backup,
 * `SMTP_(...)` are settings of SMTP server like address, port, user and password.
 
-### Execute rights
-Allow to execute files:
-
-````bash
-sudo chmod +x ./*.sh
-sudo chmod +x ./apps/*.py
-````
-
 ### Schedule
 On Linux powered machine add scheduler using `crontab -e` by adding at the end of file:
 
